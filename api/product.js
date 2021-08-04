@@ -10,7 +10,7 @@ router.get("/", async (req, res) => {
   try {
     res.json({
       status: 200,
-      message: "qwerty hello",
+      message: "qwerty hello2",
     });
   } catch (error) {
     console.error(error);
